@@ -2,6 +2,8 @@
 
 [DTS hackathon 2021](https://distributed-text-services.github.io/workshops/events/2021-hackathon/), organised by the dhCenter UNIL-EPFL and the École Nationale des Chartes.
 
+[DTS Specifications](https://distributed-text-services.github.io/specifications/)
+
 This repo serves as a work-in-progress place to gather [my](https://twitter.com/epoz) notes and scripts. If you would like to get in touch, you can also mail me on eposthumus at gmail.com
 
 ## Also see:
@@ -9,6 +11,8 @@ This repo serves as a work-in-progress place to gather [my](https://twitter.com/
 https://github.com/ErnestSuyver/DBNL_experiment
 
 https://neerlandistiek.nl/2020/02/ik-was-een-avondje-sonnetten-uit-de-dbnl-vissen/
+
+https://github.com/Chartes-TNAH/dts-demo-server
 
 ## Goal
 
@@ -36,9 +40,9 @@ Many other fields use IDs to enumerate values, for example `amste001` or `denha0
 
 The files are contained in a .zip file, size: `591MB` there are `3195 files`. All the files are in the root, no sub-directories. Filenames are IDS, for example: `will028voor01_01.xml` or, `will028voor02_01.xml`
 
-So while there are circa 7K metadata records, only 3K TEI files. The discrepanyc probably those that are not public domain, and repeated records for authors?
+So while there are circa 7K metadata records, only 3K TEI files. The discrepancy probably [those that are not public domain](https://dbnl.org/overdbnl/rechthebbenden.php), and repeated records for authors?
 
-Apart from the filename, we can also find an element /TEI.2/teiHeader/fileDesc/publicationStmt/idno - but that also contains a suffix, for example `wolf016corn01_01` which while the same as the filename does not exactly match the ti_id field in the metadata csv file.
+Apart from the filename, we can also find an element [/TEI.2/teiHeader/fileDesc/publicationStmt/idno](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html) - but that also contains a suffix, for example `wolf016corn01_01` which while the same as the filename does not exactly match the ti_id field in the metadata csv file.
 
 ## TODO
 
