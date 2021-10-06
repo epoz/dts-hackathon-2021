@@ -2,7 +2,7 @@
 
 [DTS hackathon 2021](https://distributed-text-services.github.io/workshops/events/2021-hackathon/), organised by the dhCenter UNIL-EPFL and the École Nationale des Chartes.
 
-[DTS Specifications](https://distributed-text-services.github.io/specifications/)
+[DTS Specifications](https://distributed-text-services.github.io/specifications/) [also](https://github.com/distributed-text-services/specifications)
 
 This repo serves as a work-in-progress place to gather [my](https://twitter.com/epoz) notes and scripts. If you would like to get in touch, you can also mail me on eposthumus at gmail.com
 
@@ -44,8 +44,17 @@ So while there are circa 7K metadata records, only 3K TEI files. The discrepancy
 
 Apart from the filename, we can also find an element [/TEI.2/teiHeader/fileDesc/publicationStmt/idno](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html) - but that also contains a suffix, for example `wolf016corn01_01` which while the same as the filename does not exactly match the ti_id field in the metadata csv file.
 
-## TODO
+On the DBNL site, there is clearly a much richer data model, but that is not made available for download. This looks like a wonderful candidate for LOD like the other [fab KB.nl resources](http://data.bibliotheken.nl/)
 
-- [ ] map the fieldnames from the metadata file to something - DC?
+### Misc
 
-- [ ] see if we can find a mapping of identifiers to some of controlled vocabulary (or at least an explanation for them)
+Some of the items on the DBNKL website also have scans available, see:
+`curl --HEAD https://www.dbnl.org/arch/_alm009185901_01/pag/_alm009185901_01.pdf`
+Might be a nice additions to see how many of these we can list and add to the metadata.
+
+There is a site with bibliographic information available on: http://www.bntl.nl/bntl/
+See the links to there for example from: https://www.dbnl.org/auteurs/auteur.php?id=bull001
+
+Look at the [Thesaurus Auteurs DBNL](http://data.bibliotheken.nl/doc/dataset/dbnla) and [Titels DBNL](http://data.bibliotheken.nl/doc/dataset/dbnlt)
+
+See [Citation structures](https://tei-c.org/release/doc/tei-p5-doc/fr/html/SA.html#SACRCS) on the TEI site.
