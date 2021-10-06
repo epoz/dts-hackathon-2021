@@ -6,6 +6,8 @@
 
 This repo serves as a work-in-progress place to gather [my](https://twitter.com/epoz) notes and scripts. If you would like to get in touch, you can also mail me on eposthumus at gmail.com
 
+[Hackathon entry at the 2021 Workshop](https://github.com/distributed-text-services/workshops/issues/19)
+
 ## Also see:
 
 https://github.com/ErnestSuyver/DBNL_experiment
