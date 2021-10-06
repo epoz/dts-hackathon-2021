@@ -48,7 +48,7 @@ On the DBNL site, there is clearly a much richer data model, but that is not mad
 
 ### Misc
 
-Some of the items on the DBNKL website also have scans available, see:
+Some of the items on the DBNL website also have scans available, see:
 `curl --HEAD https://www.dbnl.org/arch/_alm009185901_01/pag/_alm009185901_01.pdf`
 Might be a nice additions to see how many of these we can list and add to the metadata.
 
