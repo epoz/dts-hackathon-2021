@@ -1,4 +1,5 @@
 import json
+import ndjson
 import zipfile
 import lxml, lxml.etree
 from rich.progress import track
@@ -21,4 +22,4 @@ for file_info in track(z.infolist()):
     except lxml.etree.XMLSyntaxError:
         ISSUES.append(file_info.filename)
 
-open("tei_files.json", "w").write(json.dumps(DATA, indent=2))
+open("dbnl.ndjson", "w").write(ndjson.dumps(DATA.items()))
